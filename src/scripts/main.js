@@ -1,4 +1,4 @@
-import { fetchAuthors, fetchRecipients, fetchTopics} from "./dataAccess.js";
+import { fetchAuthors, fetchRecipients, fetchTopics, retrieveLetter} from "./dataAccess.js";
 import { letterForm } from "./letterform.js";
 
 
@@ -8,6 +8,7 @@ const renderSite = () => {
     fetchRecipients()
     fetchTopics()
     fetchAuthors()
+    retrieveLetter()
     .then(
         () => {
             mainContainer.innerHTML = letterForm()

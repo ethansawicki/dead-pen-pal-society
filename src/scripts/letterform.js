@@ -2,7 +2,7 @@ import { showAuthors } from "./authors.js";
 import { showRecipients } from "./recipients.js";
 import { showTopics } from "./topics.js";
 import { textInput, damnButton } from "./textinput.js";
-
+import { showLetters } from "./storedLetters.js"; 
 
 export const letterForm = () => {
     return `
@@ -30,7 +30,8 @@ export const letterForm = () => {
                 </div>
             <h2>Sent Letters</h2>
                 <div>
-                   Soon&trade;
+                   <b>Soon&trade;</b>
+                   ${showLetters()}
                 </div>
     `
 }

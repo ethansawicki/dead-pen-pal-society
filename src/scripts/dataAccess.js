@@ -3,6 +3,7 @@ const applicationState = {
   topics: [],
   recipient: [],
   letters: [],
+  storedLetters: []
 };
 
 const API = "http://localhost:3033";
@@ -45,13 +46,17 @@ export const sendLetter = (sentLetter) => {
     });
 };
 
-// export const retrieveLetter = () => {
-//   return fetch(`${API}/sentLetters`)
-//   .then((response) => response.json())
-//   .then((storedLetters) => {
-//     return storedLetters
-//   })
-// }
+export const retrieveLetter = () => {
+  return fetch(`${API}/sentLetters`)
+  .then((response) => response.json())
+  .then((storedLetters) => {
+      applicationState.storedLetters = storedLetters
+  })
+}
+
+export const getStoredLetters = () => {
+  return applicationState.storedLetters.map(storedLetters => ({...storedLetters}))
+}
 
 export const letterState = () => {
   return applicationState.letters.map((letter) => ({ ...letter }));
