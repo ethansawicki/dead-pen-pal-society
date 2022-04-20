@@ -7,13 +7,13 @@ mainContainer.addEventListener("click", clickEvent => {
         const letterBody = document.querySelector("textarea[name='text_input']").value
         const author = document.querySelector("select[name='authors_list']").value
         const recipient = document.querySelector("select[name='recipients_list']").value
-        const topic = document.querySelector("input[name='topic']:checked").value
+        const topic = document.querySelector("input[name='topic_checked']:checked").value
         const date = new Date().toLocaleTimeString
         const sentLetterToAPI = {
+            recipient: recipient,
             author: author,
             body: letterBody,
             topic: topic,
-            recipient: recipient,
             sentDate: date 
         }
         sendLetter(sentLetterToAPI)

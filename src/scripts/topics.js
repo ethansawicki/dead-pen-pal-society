@@ -2,10 +2,10 @@ import { getTopics } from "./dataAccess.js";
 
 const mainContainer = document.querySelector("#container");
 
-mainContainer.addEventListener("change", (changeEvent) => {
-  if (changeEvent.target.name === "topic_checked") {
+mainContainer.addEventListener("click", (clickEvent) => {
+  if (clickEvent.target.name === "topic_checked") {
     const topicSelection = document.querySelector(
-      "input[name='topic']:checked"
+      "input[name='topic_checked']:checked"
     ).value;
   }
 });
