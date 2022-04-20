@@ -29,8 +29,7 @@ export const letterForm = () => {
                     ${damnButton()}
                 </div>
             <h2>Sent Letters</h2>
-                <div>
-                   <b>Soon&trade;</b>
+                <div class="letter_body">
                    ${showLetters()}
                 </div>
     `

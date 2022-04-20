@@ -12,7 +12,7 @@ mainContainer.addEventListener("click", (clickEvent) => {
 
 const allTopics = (topics) => {
   return `
-    <input type="radio" name="topic_checked" id="${topics.id}">
+    <input type="radio" name="topic_checked" id="${topics.topics}">
     <label for="topic">${topics.topic}</label>
     `;
 };

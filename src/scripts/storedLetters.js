@@ -2,7 +2,12 @@ import { getStoredLetters } from './dataAccess.js'
 
 const storedLetters = (letters) => {
     return `
-        <div class="whatever">${letters.body}</div>
+        <div class="sent_Message">
+        <p>Sent to: <b>${letters.recipient}</b></p>
+        <p>From: <b>${letters.author}</b></p>
+        <p>Subject: ${letters.topic}</p>
+        <p>${letters.body}</p>
+        </div>
     `
 }
 

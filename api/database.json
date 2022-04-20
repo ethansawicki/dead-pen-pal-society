@@ -51,206 +51,26 @@
   ],
   "sentLetters": [
     {
-      "body": null,
-      "id": 1
-    },
-    {
-      "body": null,
-      "id": 2
-    },
-    {
-      "body": null,
-      "id": 3
-    },
-    {
-      "body": null,
-      "id": 4
-    },
-    {
-      "body": null,
-      "id": 5
-    },
-    {
-      "body": null,
-      "id": 6
-    },
-    {
-      "body": "1",
-      "id": 7
-    },
-    {
-      "body": "1",
-      "id": 8
-    },
-    {
-      "body": "1",
-      "id": 9
-    },
-    {
-      "body": null,
-      "id": 10
-    },
-    {
-      "body": null,
-      "id": 11
-    },
-    {
-      "body": null,
-      "id": 12
-    },
-    {
-      "body": {},
-      "id": 13
-    },
-    {
-      "body": "asdfasdf",
-      "id": 14
-    },
-    {
-      "body": "it finally takes bullshit in",
-      "id": 15
-    },
-    {
-      "body": "and clears the input by rendering again!",
-      "id": 16
-    },
-    {
-      "body": "asdf",
-      "id": 17
-    },
-    {
-      "body": "asdfasdf",
-      "id": 18
-    },
-    {
-      "body": "Can you spot the point it started working for me?",
-      "id": 19
-    },
-    {
-      "body": "ignore the soon though lol",
-      "id": 20
-    },
-    {
-      "body": "Well... rather the point i finally figured out the issue",
-      "id": 21
-    },
-    {
-      "body": "adsfgasdf",
-      "id": 22
-    },
-    {
-      "author": "Bob Saget",
-      "body": "dfgsd",
-      "id": 23
-    },
-    {
-      "author": "Bob Saget",
-      "body": "asdfgasdf",
-      "recipient": null,
-      "id": 24
-    },
-    {
-      "author": "Lewis Black",
-      "body": "qwertyuiop",
-      "recipient": null,
-      "id": 25
-    },
-    {
-      "author": "Bill Burr",
-      "body": "qwertyuiop",
-      "recipient": null,
-      "id": 26
-    },
-    {
-      "author": "Bob Saget",
-      "body": "12341234123",
-      "recipient": null,
-      "id": 27
-    },
-    {
-      "author": "Bob Saget",
-      "body": "asdfasd",
-      "recipient": null,
-      "id": 28
-    },
-    {
-      "author": "Bob Saget",
-      "body": "ffff",
-      "recipient": null,
-      "id": 29
-    },
-    {
-      "author": "Bob Saget",
-      "body": "",
-      "recipient": null,
-      "id": 30
-    },
-    {
-      "author": "Bob Saget",
-      "body": "",
-      "recipient": "Lewis Black",
-      "id": 31
-    },
-    {
-      "author": "Lewis Black",
-      "body": "Crackers",
-      "recipient": "Bill Burr",
-      "id": 32
-    },
-    {
-      "author": "Bob Saget",
-      "body": "",
-      "recipient": "Bob Saget",
-      "id": 33
-    },
-    {
-      "author": "Bob Saget",
-      "body": "",
-      "topic": "on",
-      "recipient": "Bob Saget",
-      "id": 34
-    },
-    {
-      "author": "Bob Saget",
-      "body": "",
-      "topic": "on",
-      "recipient": "Bob Saget",
-      "id": 35
-    },
-    {
-      "author": "Bob Saget",
-      "body": "",
-      "topic": "on",
-      "recipient": "Bob Saget",
-      "id": 36
-    },
-    {
-      "author": "Bob Saget",
-      "body": "",
-      "topic": "on",
-      "recipient": "Bob Saget",
-      "id": 37
-    },
-    {
-      "author": "Bob Saget",
-      "body": "",
-      "topic": "on",
-      "recipient": "Bob Saget",
-      "id": 38
-    },
-    {
-      "author": "Bob Saget",
-      "body": "bobs",
-      "topic": "on",
-      "recipient": "Lewis Black",
-      "id": 39
-    },
-    {
       "recipient": "Bill Burr",
       "author": "Bob Saget",
-      "body": "",
+      "body": "Test",
       "topic": "on",
       "id": 40
+    },
+    {
+      "recipient": "Bob Saget",
+      "author": "Bill Burr",
+      "body": "gsdfgs",
+      "topic": "on",
+      "id": 41
+    },
+    {
+      "recipient": "Lewis Black",
+      "author": "Lewis Black",
+      "body": "asdf",
+      "topic": "on",
+      "todayDate": "Invalid Date",
+      "id": 42
     }
   ]
 }
