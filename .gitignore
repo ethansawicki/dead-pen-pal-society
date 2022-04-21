@@ -1,6 +1,6 @@
 # ignore .json
 api/*
-!api/*.json
+api/*.json
 
 
 # Elastic Beanstalk Files
