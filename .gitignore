@@ -1,6 +1,9 @@
+# ignore .json
+api/*
+!api/*.json
+
 
 # Elastic Beanstalk Files
-database.json
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
