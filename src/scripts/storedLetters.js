@@ -5,9 +5,9 @@ const storedLetters = (letters) => {
         <div class="sent_Message">
         <p>Sent to: <b>${letters.recipient}</b></p>
         <p>From: <b>${letters.author}</b></p>
-        <p>Subject: ${letters.topic}</p>
         <p>${letters.body}</p>
-        <p>${letters.todayDate}</p>
+        <p>Topic: ${letters.topic}</p>
+        <p>${letters.submitDate}</p>
         </div>
     `
 }

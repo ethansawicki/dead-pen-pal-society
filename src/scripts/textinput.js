@@ -14,7 +14,7 @@ mainContainer.addEventListener("click", clickEvent => {
             author: author,
             body: letterBody,
             topic: topic,
-            todayDate: date.toLocaleString('en-US')
+            submitDate: date.toLocaleString('en-US')
         }
         sendLetter(sentLetterToAPI)
         console.log(date)

@@ -50,35 +50,6 @@
     }
   ],
   "sentLetters": [
-    {
-      "recipient": "Bob Saget",
-      "author": "Bill Burr",
-      "body": "yyyy",
-      "topic": "Vin Diesel Meme (Family)",
-      "id": 1
-    },
-    {
-      "recipient": "Bob Saget",
-      "author": "Bob Saget",
-      "body": "",
-      "topic": "Vin Diesel Meme (Family)",
-      "id": 2
-    },
-    {
-      "recipient": "Bob Saget",
-      "author": "Bob Saget",
-      "body": "asdfa",
-      "topic": "Friendly",
-      "todayDate": "4/21/2022, 12:11:24 AM",
-      "id": 3
-    },
-    {
-      "recipient": "Bill Burr",
-      "author": "Bob Saget",
-      "body": "test date",
-      "topic": "Vin Diesel Meme (Family)",
-      "todayDate": "4/21/2022, 12:13:20 AM",
-      "id": 4
-    }
+    
   ]
 }
