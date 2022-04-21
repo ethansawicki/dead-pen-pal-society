@@ -2,18 +2,18 @@ import { getTopics } from "./dataAccess.js";
 
 const mainContainer = document.querySelector("#container");
 
-mainContainer.addEventListener("click", (clickEvent) => {
-  if (clickEvent.target.name === "topic_checked") {
+mainContainer.addEventListener("change", (changeEvent) => {
+  if (changeEvent.target.name === "topic_checked") {
     const topicSelection = document.querySelector(
-      "input[name='topic_checked']:checked"
+      "input[name='topic_checked']"
     ).value;
   }
 });
 
 const allTopics = (topics) => {
   return `
-    <input type="radio" name="topic_checked" id="${topics.topics}">
-    <label for="topic">${topics.topic}</label>
+    <input type="radio" value="${topics.topic}" name="topic_checked" id="topic_checked_${topics.id}">
+    <label for="topic_checked_${topics.id}">${topics.topic}</label>
     `;
 };
 

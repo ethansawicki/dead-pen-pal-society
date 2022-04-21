@@ -4,21 +4,35 @@ import { letterForm } from "./letterform.js";
 
 const mainContainer = document.querySelector('#container');
 
-const renderSite = () => {
-    fetchRecipients()
-    fetchTopics()
-    fetchAuthors()
-    retrieveLetter()
-    .then(
-        () => {
-            mainContainer.innerHTML = letterForm()
-        }
-    )
+// const renderSite = () => {
+//     fetchRecipients()
+//     .then(() => 
+//         fetchTopics()
+//     )    
+//     .then(() =>
+//         fetchAuthors()
+//     )
+//     .then(() =>
+//         retrieveLetter()
+//     )
+//     .then(
+//         () => {
+//             mainContainer.innerHTML = letterForm()
+//         }
+//     )
+// }
+// renderSite();
+
+
+
+const renderSiteAsync = async() => {
+   await Promise.all([fetchAuthors(), fetchRecipients(), fetchTopics(), retrieveLetter()])
+    mainContainer.innerHTML = letterForm()
 }
-renderSite();
+renderSiteAsync()
+
 mainContainer.addEventListener(
     "stateChanged",
     customEvent => {
-        renderSite()
+        renderSiteAsync()
     })
-
