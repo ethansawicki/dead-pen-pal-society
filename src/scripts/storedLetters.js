@@ -7,6 +7,7 @@ const storedLetters = (letters) => {
         <p>From: <b>${letters.author}</b></p>
         <p>Subject: ${letters.topic}</p>
         <p>${letters.body}</p>
+        <p>${letters.todayDate}</p>
         </div>
     `
 }

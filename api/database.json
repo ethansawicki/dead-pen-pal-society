@@ -6,11 +6,11 @@
     },
     {
       "id": 2,
-      "name": "Bill Burr"
+      "name": "Mitch Hedberg"
     },
     {
       "id": 3,
-      "name": "Lewis Black"
+      "name": "George Carlin"
     }
   ],
   "topics": [
@@ -42,77 +42,43 @@
     },
     {
       "id": 2,
-      "name": "Bill Burr"
+      "name": "Mitch Hedberg"
     },
     {
       "id": 3,
-      "name": "Lewis Black"
+      "name": "George Carlin"
     }
   ],
   "sentLetters": [
     {
-      "recipient": "Bill Burr",
-      "author": "Bob Saget",
-      "body": "Test",
-      "topic": "on",
-      "id": 40
-    },
-    {
       "recipient": "Bob Saget",
       "author": "Bill Burr",
-      "body": "gsdfgs",
-      "topic": "on",
-      "id": 41
-    },
-    {
-      "recipient": "Lewis Black",
-      "author": "Lewis Black",
-      "body": "asdf",
-      "topic": "on",
-      "todayDate": "Invalid Date",
-      "id": 42
+      "body": "yyyy",
+      "topic": "Vin Diesel Meme (Family)",
+      "id": 1
     },
     {
       "recipient": "Bob Saget",
       "author": "Bob Saget",
-      "body": "yo",
-      "topic": "on",
-      "id": 43
-    },
-    {
-      "recipient": "Lewis Black",
-      "author": "Bob Saget",
-      "body": "who",
-      "topic": "on",
-      "id": 44
-    },
-    {
-      "recipient": "Bob Saget",
-      "author": "Bob Saget",
-      "body": "",
-      "topic": "on",
-      "id": 45
-    },
-    {
-      "recipient": "Bob Saget",
-      "author": "Bob Saget",
-      "body": "",
-      "topic": "3",
-      "id": 46
-    },
-    {
-      "recipient": "Bob Saget",
-      "author": "Bob Saget",
-      "body": "",
-      "topic": "undefined",
-      "id": 47
-    },
-    {
-      "recipient": "Bob Saget",
-      "author": "",
       "body": "",
       "topic": "Vin Diesel Meme (Family)",
-      "id": 48
+      "id": 2
+    },
+    {
+      "recipient": "Bob Saget",
+      "author": "Bob Saget",
+      "body": "asdfa",
+      "topic": "Friendly",
+      "todayDate": "4/21/2022, 12:11:24 AM",
+      "id": 3
+    },
+    {
+      "recipient": "Bill Burr",
+      "author": "Bob Saget",
+      "body": "test date",
+      "topic": "Vin Diesel Meme (Family)",
+      "todayDate": "4/21/2022, 12:13:20 AM",
+      "id": 4
     }
   ]
 }

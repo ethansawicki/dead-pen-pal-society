@@ -8,15 +8,16 @@ mainContainer.addEventListener("click", clickEvent => {
         const author = document.querySelector("select[name='authors_list']").value
         const recipient = document.querySelector("select[name='recipients_list']").value
         const topic = document.querySelector("input[name='topic_checked']:checked").value
-        // const date = new Date(Date.UTC())
+        const date = new Date()
         const sentLetterToAPI = {
             recipient: recipient,
             author: author,
             body: letterBody,
             topic: topic,
-            // todayDate: date.toLocaleString('en-US')
+            todayDate: date.toLocaleString('en-US')
         }
         sendLetter(sentLetterToAPI)
+        console.log(date)
     }
 })
 
